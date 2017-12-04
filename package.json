@@ -1,0 +1,11 @@
+{
+  "name": "adventofcode-2017",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lako90/adventofcode-2017.git",
+  "author": "Luca Perna <luca.perna@thinkopen.it>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
