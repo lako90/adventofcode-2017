@@ -1,3 +1,4 @@
+const checkSum = require('./checkSum');
 const inputs = require('./inputs.json');
 const input = inputs.day1;
 let result = 0;
@@ -16,5 +17,4 @@ for (let i = 0; i <= input.length; i += 1) {
   }
 }
 
-result = toSum.reduce((a, b) => a + b, 0);
-console.log('RESULT', result);
+console.log('day_1 result ', checkSum(toSum));
