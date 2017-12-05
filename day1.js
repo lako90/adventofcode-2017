@@ -1,7 +1,6 @@
 const checkSum = require('./checkSum');
 const inputs = require('./inputs.json');
 const input = inputs.day1;
-let result = 0;
 const toSum = [];
 
 for (let i = 0; i <= input.length; i += 1) {
